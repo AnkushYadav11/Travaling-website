@@ -15,6 +15,9 @@ app.use(express.static("public"))
 app.use(cookieParser())
 
 import experienceRoute from "./routes/experience.routes.js"
+import userRoute from "./routes/user.routes.js"
+
 app.use("/api/experience", experienceRoute)
+app.use("/api/users", userRoute)
 
 export {app}

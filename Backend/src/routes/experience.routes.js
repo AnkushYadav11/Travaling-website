@@ -5,7 +5,7 @@ import { addExperience } from "../controllers/experience.controller.js";
 
 const router = Router();
 
-// router.use(verifyJWT)
+router.use(verifyJWT)
 
 router.route("/add-experience").post(upload.array("images"), addExperience);
 
