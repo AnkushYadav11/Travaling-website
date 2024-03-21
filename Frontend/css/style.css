@@ -219,6 +219,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.25;
   color: var(--bs-heading-color);
+  text-align: center;
 }
 
 h1, .h1 {
@@ -273,6 +274,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
 }
 
 abbr[title] {
@@ -5261,7 +5263,9 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 500px;
+  height: 500px;
+  padding:10px;
 }
 
 .card-img,
